@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccf695ce1a2d8445159c12a1e6d828f3",
+    "content-hash": "bdfc89a8510ec1e3a8b36ffe5d3e692d",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -1408,6 +1408,98 @@
                 "serialize"
             ],
             "time": "2019-05-31T20:04:32+00:00"
+        },
+        {
+            "name": "outhebox/nova-hidden-field",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MohmmedAshraf/nova-hidden-field.git",
+                "reference": "7880e5377b27db92a641149959443b5062486797"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MohmmedAshraf/nova-hidden-field/zipball/7880e5377b27db92a641149959443b5062486797",
+                "reference": "7880e5377b27db92a641149959443b5062486797",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Outhebox\\NovaHiddenField\\FieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Outhebox\\NovaHiddenField\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohamed Ashraf",
+                    "email": "cupo.ashraf@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Laravel Nova Hidden field.",
+            "keywords": [
+                "field",
+                "laravel",
+                "nova",
+                "nova default value",
+                "nova hidden field"
+            ],
+            "time": "2018-11-14T08:40:31+00:00"
+        },
+        {
+            "name": "owenmelbz/nova-radio-field",
+            "version": "0.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OwenMelbz/nova-radio-field.git",
+                "reference": "e6d09f4b94bc8dd02ed3d63721bfa3b6a89773d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OwenMelbz/nova-radio-field/zipball/e6d09f4b94bc8dd02ed3d63721bfa3b6a89773d8",
+                "reference": "e6d09f4b94bc8dd02ed3d63721bfa3b6a89773d8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "OwenMelbz\\RadioField\\FieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OwenMelbz\\RadioField\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Laravel Nova radio field.",
+            "keywords": [
+                "laravel",
+                "nova"
+            ],
+            "time": "2018-09-01T21:41:08+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -3327,6 +3419,54 @@
                 "environment"
             ],
             "time": "2019-06-15T22:40:20+00:00"
+        },
+        {
+            "name": "waynestate/nova-ckeditor4-field",
+            "version": "0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/waynestate/nova-ckeditor4-field.git",
+                "reference": "4ce26042078b83fc193a8e5ff983bd0d06d48cd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/waynestate/nova-ckeditor4-field/zipball/4ce26042078b83fc193a8e5ff983bd0d06d48cd6",
+                "reference": "4ce26042078b83fc193a8e5ff983bd0d06d48cd6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Waynestate\\Nova\\CKEditorFieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Waynestate\\Nova\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Web Communications",
+                    "email": "web@wayne.edu"
+                }
+            ],
+            "description": "This nova package allows you to use CKEditor 4 for text areas.",
+            "keywords": [
+                "CKEditor",
+                "laravel",
+                "nova"
+            ],
+            "time": "2018-12-04T20:14:50+00:00"
         }
     ],
     "packages-dev": [

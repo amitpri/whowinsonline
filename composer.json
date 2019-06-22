@@ -12,7 +12,10 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "laravel/nova": "*"
+        "laravel/nova": "*",
+        "waynestate/nova-ckeditor4-field": "^0.1.4",
+        "outhebox/nova-hidden-field": "^1.0",
+        "owenmelbz/nova-radio-field": "^0.0.5"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
